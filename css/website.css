@@ -1,0 +1,67 @@
+body{
+font-family: 'lucida grande' ,tahoma, verdana, arian, sans-serif;background-color:#000000;
+}
+
+#container{
+width:1080px;
+margin:0 auto;
+padding: 1px;
+background-color:#000;
+}
+
+#navigation{
+height:60px;
+border:3px solid #e3e3e3;
+margin-top:5px;
+background-image:url(../Images/background_pict.png)
+}
+
+ul#navmenu{
+list-style-type:none;
+font-size:20px;
+}
+
+ul#navmenu li{
+width:200px;
+text-align:center;
+float:left;
+margin-right:4px;
+}
+ul#navmenu a{
+text-decoration:none;
+display:block;
+width:180px;
+height:25px;
+background-color:#fff;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+#banner{
+height:320px;
+background-image:url(../Images/lower_pict.jpg);
+background-size:cover;
+}
+#content_area{
+float:left;
+width:750px;
+margin:20px 0 20px 0;
+padding:10px;
+border:3px solid #e3e3e3;
+color:white;
+}
+
+.imgleft{
+float:left;
+margin:0px 10px 10px 0;
+padding:5px;
+}
+#footer{
+clear:both;
+width:auto;
+height:20px;
+padding:20px;
+background-image:url(../Images/background_pict.png);
+color:000;
+text-align:center;
+}
